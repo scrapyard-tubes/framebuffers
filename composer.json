@@ -1,0 +1,37 @@
+{
+    "name": "tubes/framebuffers",
+    "description": "The Tubes Framebuffers component.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Angel Gonzalez",
+            "email": "angel@projectsaturnstudios.com"
+        }
+    ],
+    "homepage": "https://scrapyard-io.projectsaturnstudios.com/ecosystem/scrapyard-io/tubes/0.7.x/framebuffers",
+    "support": {
+        "issues": "https://github.com/scrapyard-io/tubes/issues",
+        "source": "https://github.com/scrapyard-io/tubes"
+    },
+    "require": {
+        "php": "^8.4|^8.5|^8.6",
+        "fabricate/nuts-and-bolts": "^0.7.0",
+        "tubes/contracts": "^0.7.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "ScrapyardIO\\Tubes\\Framebuffers\\": ""
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.7.x-dev",
+            "dev-main": "0.7.x-dev",
+            "dev-0.7.x": "0.7.x-dev"
+        }
+    }
+}
